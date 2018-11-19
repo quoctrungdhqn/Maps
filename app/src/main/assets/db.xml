@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTable xmlns="https://tempuri.org/">
+    <xs:schema
+        xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="https://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="NewDataSet" xsi:schemaLocation="https://www.w3.org/2001/XMLSchema ">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="T1" msdata:UseCurrentLocale="true">
+            <xs:complexType>
+                <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element name="T1">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="ID type=" minOccurs="0"/>
+                                <xs:element name="NameAr" minOccurs="0" type="xs:string"/>
+                                <xs:element name="NameEn" minOccurs="0" type="xs:string"/>
+                                <xs:element name="Mobile" minOccurs="0" type="xs:string"/>
+                                <xs:element name="Phone" minOccurs="0" type="xs:string"/>
+                                <xs:element name="AddressDetail" minOccurs="0" type="xs:string"/>
+                                <xs:element name="LAT" minOccurs="0" type="xs:string"/>
+                                <xs:element name="LONG" minOccurs="0" type="xs:string"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <DocumentElement xmlns="">
+            <T1 diffgr:id="T11" msdata:rowOrder="0">
+            <ID>000001</ID>
+            <NameAr>خضروات الشرقي</NameAr>
+            <NameEn>EASTERN VEGETABLES</NameEn>
+            <Mobile>0506299666</Mobile>
+            <Phone>0506299666</Phone>
+            <AddressDetail>الرياض شارع الإستقلال بناية خالد عبدالرحمن</AddressDetail>
+            <LAT>25.122930526733398</LAT>
+            <LONG>56.354377746582031</LONG>
+            <T1>
+            <T1 diffgr:id="T12" msdata:rowOrder="1">
+            <ID>000002</ID>
+            <NameAr>مطعم السلام</NameAr>
+            <NameEn>ALSALAM RESTAURANT</NameEn>
+            <Mobile>0559184496</Mobile>
+            <Phone>0502405111</Phone>
+            <AddressDetail>الشارقة السلام النصر</AddressDetail>
+            <LAT>25.129981994628906</LAT>
+            <LONG>56.336067199707031</LONG>
+            <T1>
+        </DocumentElement>
+    </diffgr:diffgram>
+</DataTable>
