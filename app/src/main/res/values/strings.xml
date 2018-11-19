@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Maps</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="location">Location</string>
+    <string name="random">Random</string>
+    <string name="search">Search</string>
+    <string name="nearby">Nearby</string>
+    <string name="google_maps_key" translatable="false">AIzaSyDQpeG6iMH8ARepkw4umm036ETi-O_iImo</string>
+    <string name="empty_list">No USER listing at the moment</string>
 </resources>
